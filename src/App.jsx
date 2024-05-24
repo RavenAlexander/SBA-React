@@ -40,7 +40,9 @@ function App() {
   return (
     <>
      <PokemonList pokemon={pokemon} />
-     <Pagination />
+     <Pagination 
+     gotoNextPage={nextPageUrl ? gotoNextPage : null} //if next page exists, go to next page, otherwise return null
+     gotoPrevPage={prevPageUrl ? gotoPrevPage : null}/> 
     </>
   )
 }
