@@ -121,6 +121,10 @@ src="https://lorempokemon.fakerapi.it/pokemon/200/1237"
      gotoNextPage={nextPageUrl ? gotoNextPage : null} //if next page exists, go to next page, otherwise return null
      gotoPrevPage={prevPageUrl ? gotoPrevPage : null}/> 
      </div>
+     <div className='footer'>
+      <hr />
+      © Raven Alexander
+     </div>
     </>
   )
   

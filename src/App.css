@@ -28,9 +28,11 @@ body {
 
 .plist {
   background-color: lightgoldenrodyellow;
-  border: 1px solid red;
   padding: 2px;
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
+  border-width: 1px;
+  border-color: red;
+  border-style: solid solid none solid;
 }
 
 .caroContainer {
@@ -42,4 +44,14 @@ body {
 
 .pikachu {
   position:relative;
+}
+
+.footer {
+  font-size:x-small;
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+  border-width: 1px;
+  border-color: red;
+  border-style: none solid solid solid;
 }
