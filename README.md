@@ -1,7 +1,7 @@
 # SBA - React Application
 You can view the website here: https://fastidious-dodol-8db52b.netlify.app/ 
 
-This application features the PokeAPI, which returns a list of data about Pokemon. Turn the pages to see a list of Pokemon names populated from first from last order (by order of the original Pokedex in the Pokemon Series). 
+This application features the PokeAPI, which returns a list of data about Pokemon. Turn the pages to see a list of Pokemon names populated from first from last order (by order of the original Pokedex in the Pokemon Series). It also asks a very serious question, how many pokemon have you spotted in the wild? Use the counter to keep track!
 
 I made use of the React Hooks useState, useReducer and useEffect.
 
