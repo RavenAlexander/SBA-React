@@ -1,5 +1,7 @@
 # SBA - React Application
 
+This App features the PokeAPI, which returns data about Pokemon.
+
 ## Requirements:
 
 - Built with HTML, CSS, JavaScript, REACT, and useContent/useReducer.
@@ -19,5 +21,8 @@ etc.
 - CSS 
 - JavaScript 
 - React
+- Axios
+
+
 
 
