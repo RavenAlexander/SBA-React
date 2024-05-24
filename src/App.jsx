@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useReducer } from 'react';
-import PokemonList from './PokemonList';
+import PokemonList from './components/PokemonList';
 import axios from 'axios';
-import Pagination from './Pagination';
+import Pagination from './components/Pagination';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'; 
 import Carousel from 'react-bootstrap/Carousel'; 
@@ -66,7 +66,7 @@ function App() {
   return (
     <>
     <div className='caroContainer'>
-    <div style={{ display: 'block', width: 500, padding: 30}}> 
+    <div style={{ display: 'block', width: 600, padding: 30}}> 
       
       <Carousel> 
         <Carousel.Item interval={1500}> 
@@ -108,13 +108,15 @@ src="https://lorempokemon.fakerapi.it/pokemon/200/1237"
     </div> 
     </div>
   <div className="counter">
-    <span>How many Pokemon have you spotted on this page? </span>
+    <span><h4>How many Pokemon have you spotted on this page?</h4></span>
     <button onClick={decrement} className='small'>-</button>
     <span> {state.count} </span>
     <button onClick={increment} className='small'>+</button>
     </div>
     <div className='plist'>
+      <h2>List of Pokemon: </h2>
      <PokemonList pokemon={pokemon} />
+     <img src="../img/pikachu.gif" width="100" height="100" className="pikachu"/>
      <Pagination 
      gotoNextPage={nextPageUrl ? gotoNextPage : null} //if next page exists, go to next page, otherwise return null
      gotoPrevPage={prevPageUrl ? gotoPrevPage : null}/> 

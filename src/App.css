@@ -35,8 +35,11 @@ body {
 
 .caroContainer {
   background-color: lightgoldenrodyellow;
-  background-image:url(../public/img/pokedex-kanto-1.jpeg);
   border-radius: 10px;
   margin-bottom: 5px;
   border: 1px solid red;
+}
+
+.pikachu {
+  position:relative;
 }
